@@ -5,7 +5,7 @@ Layout and SVG generators adapted from Avi Vashishta’s tutorial and profile re
 Reference: https://www.avivashishta.com/blog/build-animated-github-profile-readme
 Source: https://github.com/AVIVASHISHTA29/AVIVASHISHTA29
 
-The README matches the article’s contribution-first layout, rather than the author’s later wordmark layout. The portrait is converted from Sanin’s existing GitHub illustration in his supplied screenshot.
+The README matches the article’s contribution-first layout, rather than the author’s later wordmark layout. The portrait is converted from Sanin’s uploaded illustrated avatar. Transparent areas are composited onto white before grayscale ASCII conversion; the source aspect ratio is preserved.
 
 Edit scripts/make_info_card.py then run python scripts/make_info_card.py to change details. To regenerate the portrait install Pillow, then run python scripts/make_ascii_svg.py. STATIC=1 emits a frozen SVG for inspection; omit it for published assets.
 
