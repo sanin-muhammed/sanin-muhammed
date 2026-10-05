@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3><code>sanin@github ~ $ ./contributions.sh</code></h3>
+<!-- <h3><code>sanin@github ~ $ ./contributions.sh</code></h3> -->
 <img src="./contrib-heatmap.svg" width="860" alt="Sanin’s real GitHub contributions, refreshed daily" />
 <br><br>
 <h3><code>sanin@github ~ $ whoami</code></h3>
